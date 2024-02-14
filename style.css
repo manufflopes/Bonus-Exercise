@@ -1,0 +1,36 @@
+.actionButtons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.actionButtons > button {
+    padding: 10px 20px;
+    min-width: 10vw;
+    border-radius: 4px;
+    border: 0;
+    background-color: rgb(158, 157, 157);
+    color: black;
+    font-weight: bolder;
+}
+
+.actionButtons > button:first-child {
+    background-color: rgb(158, 157, 157);
+    color: black;
+    font-weight: bolder;
+}
+
+.actionButtons > button:hover {
+    background-color: black;
+    color: white;
+}
+
+img {
+    margin-top: 4rem;
+    display: block;
+    max-width: 50vw;
+    margin-inline: auto;
+    padding: 4px;
+    border-style: double;
+    border-width: 12px;
+}
